@@ -1,6 +1,6 @@
-# Next Day Rain Prediction Using Logistic Regression
+# Next Day Rain Prediction Using Logistic Regression, Confusion Matrix, and Machine Learning
 ## Data Information
-This project comprises about 10 years of daily weather observations from numerous locations across Australia from 2007 to 2017. I used Python and Jupyter Notebooks to perform logistic regression to predict next-day rain in Australia. It explores features that increase the likelihood of rain in Australia and predicts whether or not it will rain tomorrow.
+This project comprises about 10 years of daily weather observations from numerous locations across Australia from 2007 to 2017. I used Python and Jupyter Notebooks to perform logistic regression and confusion matrix analysis to predict next-day rain in Australia. It explores features that increase the likelihood of rain in Australia and predicts whether or not it will rain tomorrow.
 
 ## Source
 **Title:** Rain in Australia
@@ -101,4 +101,4 @@ First, I imported the CSV file from Kaggle into my Jupyter Notebooks repository.
 
 I dropped the columns I do not need and focused on 9 columns for analysis. I removed NULL values from the columns.
 
-I split the dataset into feature_set and target_set. Data exploration shows that Australia is mostly a dry country. It has fewer rainy days than sunny days. I used a pairplot from Seaborn to visually explore the data and show how the feature_set columns affect each other, increasing or decreasing the chance of rain the next day. I split the data into training and testing sets for a logistic regression machine learning model. I fit the model into my data and assessed my model's performance. Since Australia mostly has a stable, dry weather, my model correctly predicted 83% of rainy weather forecasts.
+I split the dataset into feature_set and target_set. Data exploration shows that Australia is mostly a dry country. It has fewer rainy days than sunny days. I used a pairplot from Seaborn to visually explore the data and show how the feature_set columns affect each other, increasing or decreasing the chance of rain the next day. I split the data into training and testing sets for a logistic regression machine learning model. I fit the model into my data and assessed my model's performance. Since Australia mostly has a stable, dry weather, my model correctly predicted 83% of rainy weather forecasts. I created a confusion matrix that visualizes the logistic regression machine learning model's performance.
