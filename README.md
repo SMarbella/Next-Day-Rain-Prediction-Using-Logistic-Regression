@@ -86,6 +86,7 @@ I checked each column for Null values and dropped them. I included a comparison 
 
 # Data Exploration
 I compared the number of rainy days to dry days. Australia is mostly a dry country.
+
 ![Image](https://github.com/SMarbella/Next-Day-Rain-Prediction-Using-Logistic-Regression/blob/main/Data%20Exploration/Australia%20is%20Mostly%20Not%20Rainy.png)
 
 I split the dataset into feature_set and target_set. The feature_set includes WindSpeed9am, WindSpeed3pm, Humidity9am, Humidity3pm, Temp9am, and Temp3pm. The target_set includes the RainRomorrow column. I converted the RainTomorrow values into their mapped numeric variables. Using the Seaborn library, I cerated a pairplot. The plots visually compare all the columns included in feature_set. RainTomorrow color codes the likelihood of rain.
