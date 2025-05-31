@@ -69,3 +69,14 @@ Temp3pm - Temperature at 3pm.
 RainToday - Did it rain today?
 
 RainTomorrow - Will it rain tomorrow?
+
+## Retrieved table from
+- https://www.kaggle.com/datasets/jsphyg/weather-dataset-rattle-package/data
+
+# Charts and Calculations Generated For This Project
+
+## Jupyter Notebooks Libraries
+I imported the common libraries used for Jupyter Notebook. The pandas library is an open-source tool for data analysis and manipulation in Python. It reads files and creates Dataframes and Series. The NumPy library works with arrays and performs mathematical calculations. The Seaborn library provides statistical data visualization.
+
+# Data Cleaning
+I created a DataFrame in Python using Pandas and read the data into it. I displayed the number of rows and columns. The raw data table has 143460 rows and 23 columns. I chose to include 9 columns into the analysis since I do not need all the columns. I checked each column for Null values and dropped them.
