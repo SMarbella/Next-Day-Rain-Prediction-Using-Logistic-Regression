@@ -89,3 +89,6 @@ I split the dataset into feature_set and target_set. The feature_set includes Wi
 ![Image](https://github.com/SMarbella/Next-Day-Rain-Prediction-Using-Logistic-Regression/blob/main/Data%20Exploration/Pairplot.png)
 
 I imported the train_test_split function from the Sklearn library and split the data into training and testing sets. I imported LogisticRegression and accuracy_score from the Sklearn library to measure the accuracy of my logistic regression. I instantiated a logistic regression machine learning model. I fit the logistic regression machine learning model with my data. I used the test dataset to forecast tomorrow's rain. When I assessed my model's performance, its accuracy score is 0.8305474452554744, meaning that it is quite accurate in predicting raining conditions. The model correctly predicts 83% of the rainy forecasts based on the weather’s possible combinations of features. I created a confusion matrix to map its accuracy.
+![Image](https://github.com/SMarbella/Next-Day-Rain-Prediction-Using-Logistic-Regression/blob/main/Data%20Exploration/Confusion%20Matrix%20Accuracy.png)
+
+The upper-left and bottom-right corners of the confusion matrix are accurate predictions. They are false negatives and true positives.
